@@ -3,6 +3,7 @@ public class Service {
 	private String serviceName;
     private int cost;
 
+    //in questa classe includo nei servizi anche l'ingresso
     public int getCost() {
         return cost;
     }

@@ -1,7 +1,7 @@
 package src;
 
 public class Trainer {
-	private String trainer;//trainer String è codice, non necessariamente nome completo
+	private String trainer;//trainer String è un codice identificativo, non necessariamente nome completo
 
     public String getTrainer() {
         return trainer;

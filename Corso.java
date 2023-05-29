@@ -1,8 +1,9 @@
 package src;
 
 public class Corso {
-	public String corsoId;
-	Trainer trainerId;
+	private String corsoId;
+	private Trainer trainerId;
+	private int cost;
 	
 	public String getCorsoId() {
 		return corsoId;
@@ -14,5 +15,13 @@ public class Corso {
 	
 	public Trainer getTrainer() {
 		return trainerId;
+	}
+
+	public void setCost(int cost) {
+		this.cost = cost;
+	}
+	
+	public int getCost() {
+		return cost;
 	}
 }

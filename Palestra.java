@@ -10,7 +10,7 @@ public class Palestra {
 	//Domanda : come richiamare nel modo più efficiente ogni volta i trainerID? Possibile errore di ereditarietà
 	private ArrayList<Integer> areas;
     private String[][] combinedMatrix;
-    public Trainer trainerId;
+    private Trainer trainerId;
 
     public Palestra() {
         areas = new ArrayList<>();
